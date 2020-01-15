@@ -81,3 +81,4 @@ pranav.show_details
 pranav.call_foo
 pranav.call_new_private
 pranav.call_new_protected
+p pranav.class.ancestors
