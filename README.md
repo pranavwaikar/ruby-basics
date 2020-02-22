@@ -14,3 +14,6 @@ Ram install ruby-2.6
 
 Rails installation: 
 https://gorails.com/setup/osx/10.14-mojave
+
+
+Update**
