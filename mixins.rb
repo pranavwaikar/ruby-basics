@@ -76,3 +76,16 @@ p pranav.class.ancestors
 
 
 p ComputerStudent.new("TTT").is_a?(Student)
+
+# o/p -->
+# "Parent:show_details: a private method"
+# "name= username= password="
+# "subject=TOC"
+# "Child:call_foo"
+# "Parent:my_foo: a protected method"
+# "Child:call_new_private"
+# "StudentHelper:new_private_method:a private method"
+# "Child:call_new_protected"
+# "StudentHelper:new_protected_method:a protected method"
+# [ComputerStudent, Student, StudentHelper, Object, Kernel, BasicObject]
+# true
