@@ -43,3 +43,10 @@ p "Ancestor chain for CircleParameters is : #{CircleParameters.ancestors}"
 p "Ancestor chain for CircleParameters is : #{CircleParameters2.ancestors}"
 
 c.diameter(10)
+
+# o/p -->
+# "Ancestor chain for circle is : [CircleParameters2, CircleParameters, Circle, Object, Kernel, BasicObject]"
+# "Ancestor chain for CircleParameters is : [CircleParameters]"
+# "Ancestor chain for CircleParameters is : [CircleParameters2]"
+# 20
+# 10
