@@ -27,3 +27,7 @@ end
 c = Circle.new
 p "Ancestor chain for circle is : #{c.class.ancestors}"
 p c.diameter(10)
+
+# o/p -->
+# "Ancestor chain for circle is : [Circle, CircleParameters, Object, Kernel, BasicObject]"
+# 20
