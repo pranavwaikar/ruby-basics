@@ -37,12 +37,15 @@ class Circle
     end
 end
 
-#c = Circle.new
-#p "Ancestor chain for circle is : #{c.class.ancestors}"
-#p "Ancestor chain for CircleParameters is : #{CircleParameters.ancestors}"
+c = Circle.new
+p "Ancestor chain for circle is : #{c.class.ancestors}"
+p "Ancestor chain for CircleParameters is : #{CircleParameters.ancestors}"
 
 Circle.diameter(25)
 
 # o/p -->
+
+# "Ancestor chain for circle is : [Circle, Object, Kernel, BasicObject]"
+# "Ancestor chain for CircleParameters is : [CircleParameters]"
 # "CircleParameter2:diameter"
 # "Circle:diameter method [Class, Module, Object, Kernel, BasicObject]"
