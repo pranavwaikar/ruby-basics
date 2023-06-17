@@ -42,3 +42,7 @@ end
 #p "Ancestor chain for CircleParameters is : #{CircleParameters.ancestors}"
 
 Circle.diameter(25)
+
+# o/p -->
+# "CircleParameter2:diameter"
+# "Circle:diameter method [Class, Module, Object, Kernel, BasicObject]"
